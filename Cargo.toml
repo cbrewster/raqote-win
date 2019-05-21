@@ -1,0 +1,12 @@
+[package]
+name = "raqote-win"
+version = "0.0.1"
+authors = ["Connor Brewster <connor.brewster@eagles.oc.edu>"]
+edition = "2018"
+
+[dependencies]
+raqote = "0.4.0"
+minifb = "0.11.2"
+
+[profile.release]
+debug = true
